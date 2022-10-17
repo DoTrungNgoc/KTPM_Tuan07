@@ -1,13 +1,13 @@
-package com.example.studentservice;
+package com.example.crudservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StudentServiceApplication {
+public class CrudServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(StudentService.class, args);
+        SpringApplication.run(CrudServiceApplication.class, args);
     }
 
 }
